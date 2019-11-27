@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import LightUp
 
 textForDataRetriving = 'curl --header "Access-Token: o.UJdMvQny9onevleSQ9Kj0wZ7b9L1I73s" --data-urlencode active="true" --data-urlencode modified_after="1.4e+09" --get https://api.pushbullet.com/v2/pushes'
 textForDataDeleting = 'curl --header "Access-Token: o.UJdMvQny9onevleSQ9Kj0wZ7b9L1I73s" --request DELETE https://api.pushbullet.com/v2/pushes'
@@ -18,14 +19,17 @@ def hesten():
     if (numbersOfMessages < 2):
         # lys gronn
         print("gronn")
+        LightUp.greenLight()
 
     if (numbersOfMessages >= 2 and numbersOfMessages <= 5):
         # lys gul
         print("gul")
+        LightUp.yellowLight()
 
     if (numbersOfMessages > 5):
         # lys red and blink
         print("rod")
+        LightUp.redLight()
 
     time.sleep(2)
 
