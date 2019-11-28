@@ -18,14 +18,16 @@ pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.2, auto_write=Fal
 
 def greenLight():
     pixels.fill((0, 255, 0))
+    pixels.show()
     print('Green light')
 
 def yellowLight():
     pixels.fill((255,255,0))
+    pixels.show()
     print('Yellow light')
 
 def redLight():
     pixels.fill((255,0,0))
-    print('Red Light')
+    pixels.show()
 
 
