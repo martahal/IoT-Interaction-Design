@@ -39,7 +39,6 @@ def hesten():
         LightUp.redLight()
 
 
-    time.sleep(2)
 
 
 def reset():
