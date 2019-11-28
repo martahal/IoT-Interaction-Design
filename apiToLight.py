@@ -13,8 +13,8 @@ def hesten():
     notificationJson = json.loads(line)
     messagesFromFlic = notificationJson["pushes"]
     numbersOfMessages = len(messagesFromFlic)
-    for x in range(numbersOfMessages):
-        print(messagesFromFlic[x])
+    #for x in range(numbersOfMessages):
+     #   print(messagesFromFlic[x])
 
     if (numbersOfMessages < 2):
         # lys gronn

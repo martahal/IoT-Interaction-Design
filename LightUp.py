@@ -26,5 +26,6 @@ def yellowLight():
 
 def redLight():
     pixels.fill((255,0,0))
+    print('Red Light')
 
 
