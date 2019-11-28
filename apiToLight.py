@@ -38,6 +38,7 @@ def reset():
     os.system(textForDataDeleting)
 
 def main():
+    reset()
     while run:
         hesten()
 
