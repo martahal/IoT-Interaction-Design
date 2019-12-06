@@ -6,8 +6,8 @@ sense = SenseHat()
 
 
 while True:
-    sense.clear((255,0,0))
+    sense.clear((255,20,20))
     time.sleep(3)
-    sense.clear((0, 255, 0))
+    sense.clear((255,40,40))
     time.sleep(3)
-    sense.clear(255, 255, 0)
+    sense.clear(255, 60, 60)
