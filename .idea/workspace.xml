@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3644fafc-67af-4a36-8c60-e43457623f98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LightUp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LightUp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiToLight.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiToLight.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sensehatlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/sensehatlight.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sensehatlight.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
+            <state relative-caret-position="221">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -154,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.apiToLight">
+  <component name="RunManager" selected="Python.sensehatlight">
     <configuration name="NeoPixelTutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IoTProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,12 +197,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sensehatlight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IoTProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sensehatlight.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sensehatlight" />
         <item itemvalue="Python.NeoPixelTutorial" />
         <item itemvalue="Python.apiToLight" />
         <item itemvalue="Python.NeoPixelTutorial" />
-        <item itemvalue="Python.apiToLight" />
         <item itemvalue="Python.apiToLight" />
       </list>
     </recent_temporary>
@@ -225,7 +245,7 @@
       <workItem from="1574876042615" duration="12000000" />
       <workItem from="1575306873104" duration="117000" />
       <workItem from="1575306991565" duration="13000" />
-      <workItem from="1575629151155" duration="2639000" />
+      <workItem from="1575629151155" duration="4553000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1574883475491</created>
@@ -304,17 +324,24 @@
       <option name="project" value="LOCAL" />
       <updated>1575629795654</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="checking if lights are strong enough">
+      <created>1575635839699</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575635839699</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20175000" />
+    <option name="totallyTimeSpent" value="22089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1735925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1735925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -328,7 +355,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -350,11 +377,13 @@
     <MESSAGE value="sherveers code" />
     <MESSAGE value="removing sleep" />
     <MESSAGE value="Adding integration with the sense hat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding integration with the sense hat" />
+    <MESSAGE value="checking if lights are strong enough" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking if lights are strong enough" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IoTProject$NeoPixelTutorial.coverage" NAME="NeoPixelTutorial Coverage Results" MODIFIED="1574877215164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IoTProject$apiToLight.coverage" NAME="apiToLight Coverage Results" MODIFIED="1574884211627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IoTProject$sensehatlight.coverage" NAME="sensehatlight Coverage Results" MODIFIED="1575635460356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/iftttpir.py" />
@@ -401,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sensehatlight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -6,9 +6,8 @@ sense = SenseHat()
 
 
 while True:
-    r = random.randint(0,255)
-    g = random.randint(0,255)
-    b = random.randint(0,255)
-    sense.clear((r,g,b))
+    sense.clear((255,0,0))
     time.sleep(3)
-
+    sense.clear((0, 255, 0))
+    time.sleep(3)
+    sense.clear(255, 255, 0)
