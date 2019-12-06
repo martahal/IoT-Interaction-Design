@@ -1,4 +1,4 @@
 from sense_hat import SenseHat
 
 sense = SenseHat()
-sense.show_message('Gruppe A5 er awesome!')
+sense.clear((255,0,0))
