@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3644fafc-67af-4a36-8c60-e43457623f98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightUp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LightUp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiToLight.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiToLight.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sensehatlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/sensehatlight.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeoPixelTutorial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
+            <state relative-caret-position="579">
               <caret line="63" column="28" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="28" />
               <folding>
                 <element signature="e#44#55#0" expanded="true" />
@@ -27,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LightUp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="340">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -51,8 +54,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apiToLight.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +66,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sensehatlight.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/iftttpir.py" />
         <option value="$PROJECT_DIR$/NeoPixelTutorial.py" />
-        <option value="$PROJECT_DIR$/LightUp.py" />
         <option value="$PROJECT_DIR$/apiToLight.py" />
+        <option value="$PROJECT_DIR$/LightUp.py" />
         <option value="$PROJECT_DIR$/sensehatlight.py" />
       </list>
     </option>
@@ -216,7 +225,7 @@
       <workItem from="1574876042615" duration="12000000" />
       <workItem from="1575306873104" duration="117000" />
       <workItem from="1575306991565" duration="13000" />
-      <workItem from="1575629151155" duration="862000" />
+      <workItem from="1575629151155" duration="2639000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1574883475491</created>
@@ -299,7 +308,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18398000" />
+    <option name="totallyTimeSpent" value="20175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -319,7 +328,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -350,26 +359,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/iftttpir.py" />
     <entry file="file://$PROJECT_DIR$/RGBtutorial.py" />
-    <entry file="file://$PROJECT_DIR$/NeoPixelTutorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="28" />
-          <folding>
-            <element signature="e#44#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LightUp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/IoTProject/Lib/site-packages/board.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1751">
@@ -382,15 +371,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apiToLight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LightUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeoPixelTutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="e#44#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sensehatlight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
