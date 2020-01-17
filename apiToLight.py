@@ -5,11 +5,11 @@ import time
 import LightUp
 
 
-textForDataRetriving = 'curl --header "Access-Token: o.UJdMvQny9onevleSQ9Kj0wZ7b9L1I73s" --data-urlencode active="true" --data-urlencode modified_after="1.4e+09" --get https://api.pushbullet.com/v2/pushes'
-textForDataDeleting = 'curl --header "Access-Token: o.UJdMvQny9onevleSQ9Kj0wZ7b9L1I73s" --request DELETE https://api.pushbullet.com/v2/pushes'
+textForDataRetriving = 'curl --header "Access-Token: <ACCESS TOKEN REMOVED>" --data-urlencode active="true" --data-urlencode modified_after="1.4e+09" --get https://api.pushbullet.com/v2/pushes'
+textForDataDeleting = 'curl --header "Access-Token: <ACCESS TOKEN REMOVED>" --request DELETE https://api.pushbullet.com/v2/pushes'
 run = True
 
-def hesten():
+def logic():
     prejson = os.popen(textForDataRetriving);
     line = prejson.readline()
 
@@ -48,7 +48,7 @@ def reset():
 def main():
     reset()
     while run:
-        hesten()
+        logic()
 
 
 
